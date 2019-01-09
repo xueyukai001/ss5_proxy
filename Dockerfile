@@ -1,4 +1,4 @@
-# Socks5 Server
+# SS5 Proxy Server
 
 FROM centos:7.6.1810
 
