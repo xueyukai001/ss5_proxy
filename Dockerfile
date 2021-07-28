@@ -6,7 +6,7 @@ MAINTAINER Soar
 
 RUN TOOLS="wget gcc make pam-devel openldap-devel openssl-devel" \
   && yum -y install $TOOLS --nogpgcheck \ 
-  && wget https://superb-dca2.dl.sourceforge.net/project/ss5/ss5/3.8.9-8/ss5-3.8.9-8.tar.gz \
+  && wget https://jaist.dl.sourceforge.net/project/ss5/ss5/3.8.9-8/ss5-3.8.9-8.tar.gz \
   && tar xvf ss5-3.8.9-8.tar.gz \
   && cd ss5-3.8.9 \
   && ./configure \
